@@ -1,0 +1,10 @@
+{
+  "token_payload": {
+    "valid_from": "2025-09-07T23:00:00Z",
+    "valid_to": "2025-09-08T23:00:00Z"
+  },
+  "token_sig": "GTJHjy_A6mETqKtjQ5vjejw3M_EGLxGh-ccaat5OVC-u3Rc0BcdPbfBx2Rnb50wTjn0x_2s7rsuqHjc-b6gPBQ",
+  "last_server_time": "2025-09-08T21:46:39Z",
+  "last_monotonic": 884711.078,
+  "last_sys_utc": "2025-09-08T21:46:39Z"
+}

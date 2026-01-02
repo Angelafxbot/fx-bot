@@ -1,0 +1,1417 @@
+
+[2025-09-09 23:15:12] Launching: ['C:\\Users\\pc\\PycharmProjects\\PythonProject1\\venv_clean\\Scripts\\python.exe', '-u', '-m', 'day_trading_bot.tk_launcher', '--bot', 'GBPJPY,EURJPY,USDJPY,GBPUSD,EURAUD,XAUUSD,EURUSD', 'M15', '1.0', '0']  cwd=C:\Users\pc\PycharmProjects\PythonProject1\Forex Bot
+'forexbot.exe' is not recognized as an internal or external command,
+operable program or batch file.
+\day_trading_bot\BOT_STOP.flag
+[START] Forex Bot Updater v1.0.0
+[2025-09-09 23:15:21] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:15:21] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:15:21] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:15:21] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:15:21] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:15:21] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:15:21] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:15:21] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:15:21] [SCORE] GBPJPYm => Dir=SELL, Score=0.55, Reasons=['Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Descending Triangle']
+[2025-09-09 23:15:21] [SKIP] GBPJPYm: Below confidence threshold.
+[2025-09-09 23:15:21] [PROCESSING] Checking EURJPYm
+[2025-09-09 23:15:21] [DEBUG] Fetching 4000 candles for EURJPYm on TF=M5
+[2025-09-09 23:15:21] [DEBUG] Fetching 3000 candles for EURJPYm on TF=M15
+[2025-09-09 23:15:21] [DEBUG] Fetching 3000 candles for EURJPYm on TF=M30
+[2025-09-09 23:15:21] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H1
+[2025-09-09 23:15:21] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H2
+[2025-09-09 23:15:21] [DEBUG] Fetching 2000 candles for EURJPYm on TF=H4
+[2025-09-09 23:15:21] [DEBUG] Fetching 2000 candles for EURJPYm on TF=D1
+[2025-09-09 23:15:21] [SCORE] EURJPYm => Dir=SELL, Score=0.75, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Descending Triangle']
+[2025-09-09 23:15:21] [DEBUG] Fetching 5000 candles for EURJPYm on TF=M1
+[2025-09-09 23:15:21] [M1] EURJPYm: 5000 candles, price: 172.60100
+[2025-09-09 23:15:21] [M1] EURJPYm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:15:21] [DEBUG] Fetching 5000 candles for EURJPYm on TF=M5
+[2025-09-09 23:15:21] [M5] EURJPYm: 5000 candles, price: 172.60100
+[2025-09-09 23:15:21] [M5] EURJPYm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:15:21] [DEBUG] Fetching 3000 candles for EURJPYm on TF=M15
+[2025-09-09 23:15:21] [M15] EURJPYm: 3000 candles, price: 172.60300
+[2025-09-09 23:15:22] [M15] EURJPYm reversal REJECTED
+[2025-09-09 23:15:22] [DEBUG] Fetching 1500 candles for EURJPYm on TF=M30
+[2025-09-09 23:15:22] [M30] EURJPYm: 1500 candles, price: 172.60300
+[2025-09-09 23:15:22] [M30] EURJPYm reversal CONFIRMED
+[2025-09-09 23:15:22] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H1
+[2025-09-09 23:15:22] [H1] EURJPYm: 1500 candles, price: 172.60300
+[2025-09-09 23:15:22] [H1] EURJPYm reversal CONFIRMED
+[2025-09-09 23:15:22] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H2
+[2025-09-09 23:15:22] [H2] EURJPYm: 1500 candles, price: 172.60300
+[2025-09-09 23:15:22] [H2] EURJPYm reversal CONFIRMED
+[2025-09-09 23:15:22] [DEBUG] Fetching 2000 candles for EURJPYm on TF=H4
+[2025-09-09 23:15:22] [H4] EURJPYm: 2000 candles, price: 172.60300
+[2025-09-09 23:15:22] [H4] EURJPYm reversal CONFIRMED
+[2025-09-09 23:15:22] [DEBUG] Fetching 2000 candles for EURJPYm on TF=D1
+[2025-09-09 23:15:22] [D1] EURJPYm: 2000 candles, price: 172.60300
+[2025-09-09 23:15:22] [D1] EURJPYm reversal CONFIRMED
+[2025-09-09 23:15:22] [FINAL] EURJPYm reversal SELL CONFIRMED with 5 TFs
+[2025-09-09 23:15:22] [DEBUG] No M15 data; using static tol=0.01000
+[2025-09-09 23:15:22] [DEBUG] ATR=0.09050, spread_thresh=0.09050, tightest_spread=0.23900
+[2025-09-09 23:15:23] [ZONES] EURJPYm | M30 Demand Zones:
+[2025-09-09 23:15:23]   -> Demand Zone: 165.85900 -> 173.89900
+[2025-09-09 23:15:23] [ZONES] EURJPYm | M30 Supply Zones:
+[2025-09-09 23:15:23]   -> Supply Zone: 169.89600 -> 171.10800
+[2025-09-09 23:15:23]   -> Supply Zone: 170.69200 -> 173.89200
+[2025-09-09 23:15:23]   -> Supply Zone: 172.49400 -> 173.23400
+[2025-09-09 23:15:23] Current Price: 172.60100
+[2025-09-09 23:15:23] [DEBUG] Fetching 5000 candles for EURJPYm on TF=M1
+[ERROR] Could not fetch version info: HTTPSConnectionPool(host='your-server.com', port=443): Max retries exceeded with url: /version.txt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000248AB480110>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+[INFO] You're already running the latest version.
+[2025-09-09 23:15:23] [M1] EURJPYm: 5000 candles, price: 172.60300
+[2025-09-09 23:15:23] [M1] EURJPYm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:15:23] [DEBUG] Fetching 5000 candles for EURJPYm on TF=M5
+[2025-09-09 23:15:23] [M5] EURJPYm: 5000 candles, price: 172.60300
+[2025-09-09 23:15:23] [M5] EURJPYm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:15:23] [DEBUG] Fetching 3000 candles for EURJPYm on TF=M15
+[2025-09-09 23:15:23] [M15] EURJPYm: 3000 candles, price: 172.60300
+[2025-09-09 23:15:23] [M15] EURJPYm reversal REJECTED
+[2025-09-09 23:15:23] [DEBUG] Fetching 1500 candles for EURJPYm on TF=M30
+[2025-09-09 23:15:23] [M30] EURJPYm: 1500 candles, price: 172.60300
+[2025-09-09 23:15:23] [M30] EURJPYm reversal CONFIRMED
+[2025-09-09 23:15:24] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H1
+[2025-09-09 23:15:24] [H1] EURJPYm: 1500 candles, price: 172.60300
+[2025-09-09 23:15:24] [H1] EURJPYm reversal CONFIRMED
+[2025-09-09 23:15:24] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H2
+[2025-09-09 23:15:24] [H2] EURJPYm: 1500 candles, price: 172.60300
+[2025-09-09 23:15:24] [H2] EURJPYm reversal CONFIRMED
+[2025-09-09 23:15:24] [DEBUG] Fetching 2000 candles for EURJPYm on TF=H4
+[2025-09-09 23:15:24] [H4] EURJPYm: 2000 candles, price: 172.60300
+[2025-09-09 23:15:24] [H4] EURJPYm reversal CONFIRMED
+[2025-09-09 23:15:24] [DEBUG] Fetching 2000 candles for EURJPYm on TF=D1
+[2025-09-09 23:15:24] [D1] EURJPYm: 2000 candles, price: 172.60300
+[2025-09-09 23:15:24] [D1] EURJPYm reversal CONFIRMED
+[2025-09-09 23:15:24] [FINAL] EURJPYm reversal SELL CONFIRMED with 5 TFs
+[2025-09-09 23:15:24] [MATCH] Candle reversal confirmed in zone: 170.69200->173.89200 on M30
+[2025-09-09 23:15:24] [INFO] Closest sell zone: (172.494, 173.234), Distance: 0.3
+[2025-09-09 23:15:24] [REJECTED] EURJPYm: In SELL zone but no reversal pattern detected.
+[2025-09-09 23:15:24] [PROCESSING] Checking USDJPYm
+[2025-09-09 23:15:24] [DEBUG] Fetching 4000 candles for USDJPYm on TF=M5
+[2025-09-09 23:15:24] [DEBUG] Fetching 3000 candles for USDJPYm on TF=M15
+[2025-09-09 23:15:24] [DEBUG] Fetching 3000 candles for USDJPYm on TF=M30
+[2025-09-09 23:15:24] [DEBUG] Fetching 1500 candles for USDJPYm on TF=H1
+[2025-09-09 23:15:24] [DEBUG] Fetching 1500 candles for USDJPYm on TF=H2
+[2025-09-09 23:15:24] [DEBUG] Fetching 2000 candles for USDJPYm on TF=H4
+[2025-09-09 23:15:24] [DEBUG] Fetching 2000 candles for USDJPYm on TF=D1
+[2025-09-09 23:15:24] [SCORE] USDJPYm => Dir=SELL, Score=0.55, Reasons=['Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Head and Shoulders']
+[2025-09-09 23:15:24] [SKIP] USDJPYm: Below confidence threshold.
+[2025-09-09 23:15:24] [PROCESSING] Checking GBPUSDm
+[2025-09-09 23:15:24] [DEBUG] Fetching 4000 candles for GBPUSDm on TF=M5
+[2025-09-09 23:15:24] [DEBUG] Fetching 3000 candles for GBPUSDm on TF=M15
+[2025-09-09 23:15:24] [DEBUG] Fetching 3000 candles for GBPUSDm on TF=M30
+[2025-09-09 23:15:24] [DEBUG] Fetching 1500 candles for GBPUSDm on TF=H1
+[2025-09-09 23:15:24] [DEBUG] Fetching 1500 candles for GBPUSDm on TF=H2
+[2025-09-09 23:15:24] [DEBUG] Fetching 2000 candles for GBPUSDm on TF=H4
+[2025-09-09 23:15:24] [DEBUG] Fetching 2000 candles for GBPUSDm on TF=D1
+[2025-09-09 23:15:24] [SCORE] GBPUSDm => Dir=BUY, Score=0.80, Reasons=['Trend=uptrend', 'Momentum=BUY', 'Near support/resistance', 'Candle pattern (confirmed)', 'Chart=Double Bottom']
+[2025-09-09 23:15:24] [DEBUG] Fetching 5000 candles for GBPUSDm on TF=M1
+[2025-09-09 23:15:24] [M1] GBPUSDm: 5000 candles, price: 1.35269
+[2025-09-09 23:15:24] [M1] GBPUSDm reversal CONFIRMED
+[2025-09-09 23:15:24] [DEBUG] Fetching 5000 candles for GBPUSDm on TF=M5
+[2025-09-09 23:15:24] [M5] GBPUSDm: 5000 candles, price: 1.35269
+[2025-09-09 23:15:24] [M5] GBPUSDm near S/R but not broken for BUY. Skipping.
+[2025-09-09 23:15:24] [DEBUG] Fetching 3000 candles for GBPUSDm on TF=M15
+[2025-09-09 23:15:25] [M15] GBPUSDm: 3000 candles, price: 1.35269
+[2025-09-09 23:15:25] [M15] GBPUSDm reversal CONFIRMED
+[2025-09-09 23:15:25] [DEBUG] Fetching 1500 candles for GBPUSDm on TF=M30
+[2025-09-09 23:15:25] [M30] GBPUSDm: 1500 candles, price: 1.35269
+[2025-09-09 23:15:25] [M30] GBPUSDm reversal CONFIRMED
+[2025-09-09 23:15:25] [DEBUG] Fetching 1500 candles for GBPUSDm on TF=H1
+[2025-09-09 23:15:25] [H1] GBPUSDm: 1500 candles, price: 1.35269
+[2025-09-09 23:15:25] [H1] GBPUSDm near S/R but not broken for BUY. Skipping.
+[2025-09-09 23:15:25] [DEBUG] Fetching 1500 candles for GBPUSDm on TF=H2
+[2025-09-09 23:15:25] [H2] GBPUSDm: 1500 candles, price: 1.35269
+[2025-09-09 23:15:25] [H2] GBPUSDm reversal CONFIRMED
+[2025-09-09 23:15:25] [DEBUG] Fetching 2000 candles for GBPUSDm on TF=H4
+[2025-09-09 23:15:25] [H4] GBPUSDm: 2000 candles, price: 1.35269
+[2025-09-09 23:15:25] [H4] GBPUSDm reversal REJECTED
+[2025-09-09 23:15:25] [DEBUG] Fetching 2000 candles for GBPUSDm on TF=D1
+[2025-09-09 23:15:25] [D1] GBPUSDm: 2000 candles, price: 1.35269
+[2025-09-09 23:15:25] [D1] GBPUSDm reversal REJECTED
+[2025-09-09 23:15:25] [FINAL] GBPUSDm reversal BUY CONFIRMED with 4 TFs
+[2025-09-09 23:15:25] [DEBUG] No M15 data; using static tol=0.00030
+[2025-09-09 23:15:25] [DEBUG] ATR=0.00087, spread_thresh=0.00087, tightest_spread=0.00141
+[2025-09-09 23:15:26] [ZONES] GBPUSDm | M30 Demand Zones:
+[2025-09-09 23:15:26]   -> Demand Zone: 1.32589 -> 1.37883
+[2025-09-09 23:15:26]   -> Demand Zone: 1.33700 -> 1.35155
+[2025-09-09 23:15:26]   -> Demand Zone: 1.31407 -> 1.33639
+[2025-09-09 23:15:26] [ZONES] GBPUSDm | M30 Supply Zones:
+[2025-09-09 23:15:26]   -> Supply Zone: 1.31407 -> 1.37511
+[2025-09-09 23:15:26]   -> Supply Zone: 1.36546 -> 1.37883
+[2025-09-09 23:15:26] Current Price: 1.35682
+[2025-09-09 23:15:26] [DEBUG] Fetching 5000 candles for GBPUSDm on TF=M1
+[2025-09-09 23:15:26] [M1] GBPUSDm: 5000 candles, price: 1.35269
+[2025-09-09 23:15:26] [M1] GBPUSDm reversal CONFIRMED
+[2025-09-09 23:15:26] [DEBUG] Fetching 5000 candles for GBPUSDm on TF=M5
+[2025-09-09 23:15:26] [M5] GBPUSDm: 5000 candles, price: 1.35269
+[2025-09-09 23:15:27] [M5] GBPUSDm near S/R but not broken for BUY. Skipping.
+[2025-09-09 23:15:27] [DEBUG] Fetching 3000 candles for GBPUSDm on TF=M15
+[2025-09-09 23:15:27] [M15] GBPUSDm: 3000 candles, price: 1.35269
+[2025-09-09 23:15:27] [M15] GBPUSDm reversal CONFIRMED
+[2025-09-09 23:15:27] [DEBUG] Fetching 1500 candles for GBPUSDm on TF=M30
+[2025-09-09 23:15:27] [M30] GBPUSDm: 1500 candles, price: 1.35269
+[2025-09-09 23:15:27] [M30] GBPUSDm reversal CONFIRMED
+[2025-09-09 23:15:27] [DEBUG] Fetching 1500 candles for GBPUSDm on TF=H1
+[2025-09-09 23:15:27] [H1] GBPUSDm: 1500 candles, price: 1.35269
+[2025-09-09 23:15:27] [H1] GBPUSDm near S/R but not broken for BUY. Skipping.
+[2025-09-09 23:15:27] [DEBUG] Fetching 1500 candles for GBPUSDm on TF=H2
+[2025-09-09 23:15:27] [H2] GBPUSDm: 1500 candles, price: 1.35269
+[2025-09-09 23:15:27] [H2] GBPUSDm reversal CONFIRMED
+[2025-09-09 23:15:27] [DEBUG] Fetching 2000 candles for GBPUSDm on TF=H4
+[2025-09-09 23:15:27] [H4] GBPUSDm: 2000 candles, price: 1.35269
+[2025-09-09 23:15:28] [H4] GBPUSDm reversal REJECTED
+[2025-09-09 23:15:28] [DEBUG] Fetching 2000 candles for GBPUSDm on TF=D1
+[2025-09-09 23:15:28] [D1] GBPUSDm: 2000 candles, price: 1.35269
+[2025-09-09 23:15:28] [D1] GBPUSDm reversal REJECTED
+[2025-09-09 23:15:28] [FINAL] GBPUSDm reversal BUY CONFIRMED with 4 TFs
+[2025-09-09 23:15:28] [MATCH] Candle reversal confirmed in zone: 1.32589->1.37883 on M30
+[2025-09-09 23:15:28] [INFO] Closest buy zone: (1.32589, 1.37883), Distance: 0.0
+[2025-09-09 23:15:28] [PROCESSING] Checking EURAUDm
+[2025-09-09 23:15:28] [DEBUG] Fetching 4000 candles for EURAUDm on TF=M5
+[2025-09-09 23:15:28] [DEBUG] Fetching 3000 candles for EURAUDm on TF=M15
+[2025-09-09 23:15:28] [DEBUG] Fetching 3000 candles for EURAUDm on TF=M30
+[2025-09-09 23:15:28] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H1
+[2025-09-09 23:15:28] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H2
+[2025-09-09 23:15:28] [DEBUG] Fetching 2000 candles for EURAUDm on TF=H4
+[2025-09-09 23:15:28] [DEBUG] Fetching 2000 candles for EURAUDm on TF=D1
+[2025-09-09 23:15:28] [REJECTED] EURAUDm: M15 pattern Double Top conflicts with BUY.
+[2025-09-09 23:15:28] [PROCESSING] Checking XAUUSDm
+[2025-09-09 23:15:28] [DEBUG] Fetching 4000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:15:28] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:15:28] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M30
+[2025-09-09 23:15:28] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:15:28] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:15:28] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:15:28] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:15:28] [SCORE] XAUUSDm => Dir=SELL, Score=0.75, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Head and Shoulders']
+[2025-09-09 23:15:28] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M1
+[2025-09-09 23:15:28] [M1] XAUUSDm: 5000 candles, price: 3628.21200
+[2025-09-09 23:15:28] [M1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:15:28] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:15:28] [M5] XAUUSDm: 5000 candles, price: 3628.21200
+[2025-09-09 23:15:29] [M5] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:15:29] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:15:29] [M15] XAUUSDm: 3000 candles, price: 3628.22000
+[2025-09-09 23:15:29] [M15] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:15:29] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=M30
+[2025-09-09 23:15:29] [M30] XAUUSDm: 1500 candles, price: 3628.22000
+[2025-09-09 23:15:29] [M30] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:15:29] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:15:29] [H1] XAUUSDm: 1500 candles, price: 3628.22000
+[2025-09-09 23:15:29] [H1] XAUUSDm reversal REJECTED
+[2025-09-09 23:15:29] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:15:29] [H2] XAUUSDm: 1500 candles, price: 3628.22000
+[2025-09-09 23:15:29] [H2] XAUUSDm reversal REJECTED
+[2025-09-09 23:15:29] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:15:29] [H4] XAUUSDm: 2000 candles, price: 3628.22000
+[2025-09-09 23:15:29] [H4] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:15:29] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:15:29] [D1] XAUUSDm: 2000 candles, price: 3628.22000
+[2025-09-09 23:15:30] [D1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:15:30] [FINAL] XAUUSDm reversal SELL CONFIRMED with 6 TFs
+[2025-09-09 23:15:30] [DEBUG] No M15 data; using static tol=1.00000
+[2025-09-09 23:15:30] [DEBUG] ATR=7.15907, spread_thresh=7.15907, tightest_spread=8.68300
+[2025-09-09 23:15:31] [ZONES] XAUUSDm | M30 Demand Zones:
+[2025-09-09 23:15:31]   -> Demand Zone: 3247.92100 -> 3674.54100
+[2025-09-09 23:15:31]   -> Demand Zone: 3247.92100 -> 3291.76000
+[2025-09-09 23:15:31] [ZONES] XAUUSDm | M30 Supply Zones:
+[2025-09-09 23:15:31]   -> Supply Zone: 3511.21100 -> 3600.07600
+[2025-09-09 23:15:31]   -> Supply Zone: 3549.36900 -> 3578.42700
+[2025-09-09 23:15:31]   -> Supply Zone: 3626.63100 -> 3674.54100
+[2025-09-09 23:15:31] Current Price: 3628.21200
+[2025-09-09 23:15:31] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M1
+[2025-09-09 23:15:31] [M1] XAUUSDm: 5000 candles, price: 3628.36400
+[2025-09-09 23:15:32] [M1] XAUUSDm reversal REJECTED
+[2025-09-09 23:15:32] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:15:32] [M5] XAUUSDm: 5000 candles, price: 3628.36400
+[2025-09-09 23:15:32] [M5] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:15:32] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:15:32] [M15] XAUUSDm: 3000 candles, price: 3628.36400
+[2025-09-09 23:15:32] [M15] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:15:32] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=M30
+[2025-09-09 23:15:32] [M30] XAUUSDm: 1500 candles, price: 3628.36400
+[2025-09-09 23:15:32] [M30] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:15:32] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:15:32] [H1] XAUUSDm: 1500 candles, price: 3628.36400
+[2025-09-09 23:15:32] [H1] XAUUSDm reversal REJECTED
+[2025-09-09 23:15:32] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:15:32] [H2] XAUUSDm: 1500 candles, price: 3628.36400
+[2025-09-09 23:15:33] [H2] XAUUSDm reversal REJECTED
+[2025-09-09 23:15:33] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:15:33] [H4] XAUUSDm: 2000 candles, price: 3628.36400
+[2025-09-09 23:15:33] [H4] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:15:33] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:15:33] [D1] XAUUSDm: 2000 candles, price: 3628.39000
+[2025-09-09 23:15:33] [D1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:15:33] [FINAL] XAUUSDm reversal SELL CONFIRMED with 5 TFs
+[2025-09-09 23:15:33] [MATCH] Candle reversal confirmed in zone: 3626.63100->3674.54100 on M30
+[2025-09-09 23:15:33] [INFO] Closest sell zone: (3626.631, 3674.541), Distance: 22.4
+[2025-09-09 23:15:33] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:15:33] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:15:33] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:15:33] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:15:33] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:15:33] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:15:33] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:15:33] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:15:33] [SCORE] EURUSDm => Dir=SELL, Score=0.55, Reasons=['Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Double Top']
+[2025-09-09 23:15:33] [SKIP] EURUSDm: Below confidence threshold.
+[2025-09-09 23:15:44] [CRITICAL] 'charmap' codec can't encode character '\u2264' in position 53: character maps to <undefined>
+[2025-09-09 23:16:44] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:16:44] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:16:44] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:16:44] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:16:44] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:16:44] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:16:44] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:16:44] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:16:44] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:16:44] [PROCESSING] Checking EURJPYm
+[2025-09-09 23:16:44] [DEBUG] Fetching 4000 candles for EURJPYm on TF=M5
+[2025-09-09 23:16:44] [DEBUG] Fetching 3000 candles for EURJPYm on TF=M15
+[2025-09-09 23:16:44] [DEBUG] Fetching 3000 candles for EURJPYm on TF=M30
+[2025-09-09 23:16:44] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H1
+[2025-09-09 23:16:44] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H2
+[2025-09-09 23:16:44] [DEBUG] Fetching 2000 candles for EURJPYm on TF=H4
+[2025-09-09 23:16:44] [DEBUG] Fetching 2000 candles for EURJPYm on TF=D1
+[2025-09-09 23:16:44] [SCORE] EURJPYm => Dir=SELL, Score=0.75, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Descending Triangle']
+[2025-09-09 23:16:44] [DEBUG] Fetching 5000 candles for EURJPYm on TF=M1
+[2025-09-09 23:16:44] [M1] EURJPYm: 5000 candles, price: 172.60800
+[2025-09-09 23:16:44] [M1] EURJPYm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:16:44] [DEBUG] Fetching 5000 candles for EURJPYm on TF=M5
+[2025-09-09 23:16:44] [M5] EURJPYm: 5000 candles, price: 172.60800
+[2025-09-09 23:16:44] [M5] EURJPYm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:16:44] [DEBUG] Fetching 3000 candles for EURJPYm on TF=M15
+[2025-09-09 23:16:44] [M15] EURJPYm: 3000 candles, price: 172.60800
+[2025-09-09 23:16:44] [M15] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:44] [DEBUG] Fetching 1500 candles for EURJPYm on TF=M30
+[2025-09-09 23:16:44] [M30] EURJPYm: 1500 candles, price: 172.60800
+[2025-09-09 23:16:44] [M30] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:44] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H1
+[2025-09-09 23:16:44] [H1] EURJPYm: 1500 candles, price: 172.60800
+[2025-09-09 23:16:44] [H1] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:44] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H2
+[2025-09-09 23:16:44] [H2] EURJPYm: 1500 candles, price: 172.60800
+[2025-09-09 23:16:44] [H2] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:44] [DEBUG] Fetching 2000 candles for EURJPYm on TF=H4
+[2025-09-09 23:16:44] [H4] EURJPYm: 2000 candles, price: 172.60800
+[2025-09-09 23:16:44] [H4] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:44] [DEBUG] Fetching 2000 candles for EURJPYm on TF=D1
+[2025-09-09 23:16:44] [D1] EURJPYm: 2000 candles, price: 172.60800
+[2025-09-09 23:16:44] [D1] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:44] [FINAL] EURJPYm reversal SELL CONFIRMED with 6 TFs
+[2025-09-09 23:16:44] [DEBUG] No M15 data; using static tol=0.01000
+[2025-09-09 23:16:44] [DEBUG] ATR=0.09050, spread_thresh=0.09050, tightest_spread=0.23900
+[2025-09-09 23:16:45] [ZONES] EURJPYm | M30 Demand Zones:
+[2025-09-09 23:16:45]   -> Demand Zone: 165.85900 -> 173.89900
+[2025-09-09 23:16:45] [ZONES] EURJPYm | M30 Supply Zones:
+[2025-09-09 23:16:45]   -> Supply Zone: 169.89600 -> 171.10800
+[2025-09-09 23:16:45]   -> Supply Zone: 170.69200 -> 173.89200
+[2025-09-09 23:16:45]   -> Supply Zone: 172.49400 -> 173.23400
+[2025-09-09 23:16:45] Current Price: 172.60800
+[2025-09-09 23:16:45] [DEBUG] Fetching 5000 candles for EURJPYm on TF=M1
+[2025-09-09 23:16:45] [M1] EURJPYm: 5000 candles, price: 172.60800
+[2025-09-09 23:16:45] [M1] EURJPYm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:16:45] [DEBUG] Fetching 5000 candles for EURJPYm on TF=M5
+[2025-09-09 23:16:45] [M5] EURJPYm: 5000 candles, price: 172.60800
+[2025-09-09 23:16:45] [M5] EURJPYm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:16:45] [DEBUG] Fetching 3000 candles for EURJPYm on TF=M15
+[2025-09-09 23:16:45] [M15] EURJPYm: 3000 candles, price: 172.60800
+[2025-09-09 23:16:45] [M15] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:45] [DEBUG] Fetching 1500 candles for EURJPYm on TF=M30
+[2025-09-09 23:16:45] [M30] EURJPYm: 1500 candles, price: 172.60800
+[2025-09-09 23:16:45] [M30] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:45] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H1
+[2025-09-09 23:16:45] [H1] EURJPYm: 1500 candles, price: 172.60800
+[2025-09-09 23:16:46] [H1] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:46] [DEBUG] Fetching 1500 candles for EURJPYm on TF=H2
+[2025-09-09 23:16:46] [H2] EURJPYm: 1500 candles, price: 172.60800
+[2025-09-09 23:16:46] [H2] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:46] [DEBUG] Fetching 2000 candles for EURJPYm on TF=H4
+[2025-09-09 23:16:46] [H4] EURJPYm: 2000 candles, price: 172.60800
+[2025-09-09 23:16:46] [H4] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:46] [DEBUG] Fetching 2000 candles for EURJPYm on TF=D1
+[2025-09-09 23:16:46] [D1] EURJPYm: 2000 candles, price: 172.60800
+[2025-09-09 23:16:46] [D1] EURJPYm reversal CONFIRMED
+[2025-09-09 23:16:46] [FINAL] EURJPYm reversal SELL CONFIRMED with 6 TFs
+[2025-09-09 23:16:46] [MATCH] Candle reversal confirmed in zone: 170.69200->173.89200 on M30
+[2025-09-09 23:16:46] [INFO] Closest sell zone: (172.494, 173.234), Distance: 0.3
+[2025-09-09 23:16:46] [PROCESSING] Checking USDJPYm
+[2025-09-09 23:16:46] [DEBUG] Fetching 4000 candles for USDJPYm on TF=M5
+[2025-09-09 23:16:46] [DEBUG] Fetching 3000 candles for USDJPYm on TF=M15
+[2025-09-09 23:16:46] [DEBUG] Fetching 3000 candles for USDJPYm on TF=M30
+[2025-09-09 23:16:46] [DEBUG] Fetching 1500 candles for USDJPYm on TF=H1
+[2025-09-09 23:16:46] [DEBUG] Fetching 1500 candles for USDJPYm on TF=H2
+[2025-09-09 23:16:46] [DEBUG] Fetching 2000 candles for USDJPYm on TF=H4
+[2025-09-09 23:16:46] [DEBUG] Fetching 2000 candles for USDJPYm on TF=D1
+[2025-09-09 23:16:46] [SCORE] USDJPYm => Dir=SELL, Score=0.55, Reasons=['Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Head and Shoulders']
+[2025-09-09 23:16:46] [SKIP] USDJPYm: Below confidence threshold.
+[2025-09-09 23:16:46] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:16:46] [PROCESSING] Checking EURAUDm
+[2025-09-09 23:16:46] [DEBUG] Fetching 4000 candles for EURAUDm on TF=M5
+[2025-09-09 23:16:46] [DEBUG] Fetching 3000 candles for EURAUDm on TF=M15
+[2025-09-09 23:16:46] [DEBUG] Fetching 3000 candles for EURAUDm on TF=M30
+[2025-09-09 23:16:46] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H1
+[2025-09-09 23:16:46] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H2
+[2025-09-09 23:16:46] [DEBUG] Fetching 2000 candles for EURAUDm on TF=H4
+[2025-09-09 23:16:46] [DEBUG] Fetching 2000 candles for EURAUDm on TF=D1
+[2025-09-09 23:16:46] [REJECTED] EURAUDm: M15 pattern Double Top conflicts with BUY.
+[2025-09-09 23:16:46] [PROCESSING] Checking XAUUSDm
+[2025-09-09 23:16:46] [DEBUG] Fetching 4000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:16:46] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:16:46] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M30
+[2025-09-09 23:16:46] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:16:46] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:16:46] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:16:46] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:16:46] [SCORE] XAUUSDm => Dir=SELL, Score=0.75, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Head and Shoulders']
+[2025-09-09 23:16:46] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M1
+[2025-09-09 23:16:46] [M1] XAUUSDm: 5000 candles, price: 3628.04900
+[2025-09-09 23:16:46] [M1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:46] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:16:46] [M5] XAUUSDm: 5000 candles, price: 3628.04900
+[2025-09-09 23:16:46] [M5] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:46] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:16:46] [M15] XAUUSDm: 3000 candles, price: 3628.04900
+[2025-09-09 23:16:46] [M15] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:46] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=M30
+[2025-09-09 23:16:46] [M30] XAUUSDm: 1500 candles, price: 3628.04900
+[2025-09-09 23:16:46] [M30] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:46] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:16:46] [H1] XAUUSDm: 1500 candles, price: 3628.06800
+[2025-09-09 23:16:46] [H1] XAUUSDm reversal REJECTED
+[2025-09-09 23:16:46] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:16:46] [H2] XAUUSDm: 1500 candles, price: 3628.06800
+[2025-09-09 23:16:46] [H2] XAUUSDm reversal REJECTED
+[2025-09-09 23:16:47] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:16:47] [H4] XAUUSDm: 2000 candles, price: 3628.06800
+[2025-09-09 23:16:47] [H4] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:47] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:16:47] [D1] XAUUSDm: 2000 candles, price: 3628.06800
+[2025-09-09 23:16:47] [D1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:47] [FINAL] XAUUSDm reversal SELL CONFIRMED with 6 TFs
+[2025-09-09 23:16:47] [DEBUG] No M15 data; using static tol=1.00000
+[2025-09-09 23:16:47] [DEBUG] ATR=7.15907, spread_thresh=7.15907, tightest_spread=8.68300
+[2025-09-09 23:16:47] [ZONES] XAUUSDm | M30 Demand Zones:
+[2025-09-09 23:16:47]   -> Demand Zone: 3247.92100 -> 3674.54100
+[2025-09-09 23:16:47]   -> Demand Zone: 3247.92100 -> 3291.76000
+[2025-09-09 23:16:47] [ZONES] XAUUSDm | M30 Supply Zones:
+[2025-09-09 23:16:47]   -> Supply Zone: 3511.21100 -> 3600.07600
+[2025-09-09 23:16:47]   -> Supply Zone: 3549.36900 -> 3578.42700
+[2025-09-09 23:16:47]   -> Supply Zone: 3626.63100 -> 3674.54100
+[2025-09-09 23:16:47] Current Price: 3628.04900
+[2025-09-09 23:16:47] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M1
+[2025-09-09 23:16:47] [M1] XAUUSDm: 5000 candles, price: 3628.06800
+[2025-09-09 23:16:47] [M1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:47] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:16:47] [M5] XAUUSDm: 5000 candles, price: 3628.04600
+[2025-09-09 23:16:47] [M5] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:47] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:16:47] [M15] XAUUSDm: 3000 candles, price: 3628.04600
+[2025-09-09 23:16:48] [M15] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:48] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=M30
+[2025-09-09 23:16:48] [M30] XAUUSDm: 1500 candles, price: 3628.04600
+[2025-09-09 23:16:48] [M30] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:48] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:16:48] [H1] XAUUSDm: 1500 candles, price: 3628.04600
+[2025-09-09 23:16:48] [H1] XAUUSDm reversal REJECTED
+[2025-09-09 23:16:48] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:16:48] [H2] XAUUSDm: 1500 candles, price: 3628.04600
+[2025-09-09 23:16:48] [H2] XAUUSDm reversal REJECTED
+[2025-09-09 23:16:48] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:16:48] [H4] XAUUSDm: 2000 candles, price: 3628.04600
+[2025-09-09 23:16:48] [H4] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:48] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:16:48] [D1] XAUUSDm: 2000 candles, price: 3628.04600
+[2025-09-09 23:16:48] [D1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:16:48] [FINAL] XAUUSDm reversal SELL CONFIRMED with 6 TFs
+[2025-09-09 23:16:48] [MATCH] Candle reversal confirmed in zone: 3626.63100->3674.54100 on M30
+[2025-09-09 23:16:48] [INFO] Closest sell zone: (3626.631, 3674.541), Distance: 22.5
+[2025-09-09 23:16:48] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:16:48] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:16:48] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:16:48] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:16:48] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:16:48] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:16:48] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:16:48] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:16:48] [SCORE] EURUSDm => Dir=SELL, Score=0.90, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Candle pattern (confirmed)', 'Chart=Descending Triangle']
+[2025-09-09 23:16:48] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:16:48] [M1] EURUSDm: 5000 candles, price: 1.17104
+[2025-09-09 23:16:48] [M1] EURUSDm reversal CONFIRMED
+[2025-09-09 23:16:48] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:16:48] [M5] EURUSDm: 5000 candles, price: 1.17104
+[2025-09-09 23:16:48] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:16:48] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:16:48] [M15] EURUSDm: 3000 candles, price: 1.17104
+[2025-09-09 23:16:48] [M15] EURUSDm reversal REJECTED
+[2025-09-09 23:16:48] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:16:48] [M30] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:16:48] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:16:48] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:16:48] [H1] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:16:49] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:16:49] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:16:49] [H2] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:16:49] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:16:49] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:16:49] [H4] EURUSDm: 2000 candles, price: 1.17104
+[2025-09-09 23:16:49] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:16:49] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:16:49] [D1] EURUSDm: 2000 candles, price: 1.17104
+[2025-09-09 23:16:49] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:16:49] [FINAL] EURUSDm reversal SELL REJECTED – only 3 TFs
+[2025-09-09 23:16:49] [REJECTED] EURUSDm: Reversal filter failed.
+[2025-09-09 23:17:49] [CRITICAL] 'charmap' codec can't encode character '\u2264' in position 55: character maps to <undefined>
+[2025-09-09 23:18:49] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:18:49] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:18:49] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:18:49] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:18:49] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:18:49] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:18:49] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:18:49] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:18:49] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:18:49] [SKIP] EURJPYm: Already in trade.
+[2025-09-09 23:18:49] [PROCESSING] Checking USDJPYm
+[2025-09-09 23:18:49] [DEBUG] Fetching 4000 candles for USDJPYm on TF=M5
+[2025-09-09 23:18:49] [DEBUG] Fetching 3000 candles for USDJPYm on TF=M15
+[2025-09-09 23:18:49] [DEBUG] Fetching 3000 candles for USDJPYm on TF=M30
+[2025-09-09 23:18:49] [DEBUG] Fetching 1500 candles for USDJPYm on TF=H1
+[2025-09-09 23:18:49] [DEBUG] Fetching 1500 candles for USDJPYm on TF=H2
+[2025-09-09 23:18:49] [DEBUG] Fetching 2000 candles for USDJPYm on TF=H4
+[2025-09-09 23:18:49] [DEBUG] Fetching 2000 candles for USDJPYm on TF=D1
+[2025-09-09 23:18:49] [SCORE] USDJPYm => Dir=BUY, Score=0.75, Reasons=['Trend=uptrend', 'Momentum=BUY', 'Near support/resistance', 'Respecting trendline', 'Chart=Ascending Triangle']
+[2025-09-09 23:18:49] [DEBUG] Fetching 5000 candles for USDJPYm on TF=M1
+[2025-09-09 23:18:49] [M1] USDJPYm: 5000 candles, price: 147.40800
+[2025-09-09 23:18:49] [M1] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:49] [DEBUG] Fetching 5000 candles for USDJPYm on TF=M5
+[2025-09-09 23:18:49] [M5] USDJPYm: 5000 candles, price: 147.40800
+[2025-09-09 23:18:49] [M5] USDJPYm near S/R but not broken for BUY. Skipping.
+[2025-09-09 23:18:49] [DEBUG] Fetching 3000 candles for USDJPYm on TF=M15
+[2025-09-09 23:18:49] [M15] USDJPYm: 3000 candles, price: 147.40800
+[2025-09-09 23:18:49] [M15] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:49] [DEBUG] Fetching 1500 candles for USDJPYm on TF=M30
+[2025-09-09 23:18:49] [M30] USDJPYm: 1500 candles, price: 147.40800
+[2025-09-09 23:18:50] [M30] USDJPYm near S/R but not broken for BUY. Skipping.
+[2025-09-09 23:18:50] [DEBUG] Fetching 1500 candles for USDJPYm on TF=H1
+[2025-09-09 23:18:50] [H1] USDJPYm: 1500 candles, price: 147.40800
+[2025-09-09 23:18:50] [H1] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:50] [DEBUG] Fetching 1500 candles for USDJPYm on TF=H2
+[2025-09-09 23:18:50] [H2] USDJPYm: 1500 candles, price: 147.40800
+[2025-09-09 23:18:50] [H2] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:50] [DEBUG] Fetching 2000 candles for USDJPYm on TF=H4
+[2025-09-09 23:18:50] [H4] USDJPYm: 2000 candles, price: 147.40800
+[2025-09-09 23:18:50] [H4] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:50] [DEBUG] Fetching 2000 candles for USDJPYm on TF=D1
+[2025-09-09 23:18:50] [D1] USDJPYm: 2000 candles, price: 147.40800
+[2025-09-09 23:18:50] [D1] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:50] [FINAL] USDJPYm reversal BUY CONFIRMED with 6 TFs
+[2025-09-09 23:18:50] [DEBUG] No M15 data; using static tol=0.01000
+[2025-09-09 23:18:50] [DEBUG] ATR=0.09314, spread_thresh=0.09314, tightest_spread=0.19500
+[2025-09-09 23:18:51] [ZONES] USDJPYm | M30 Demand Zones:
+[2025-09-09 23:18:51]   -> Demand Zone: 142.67700 -> 150.91600
+[2025-09-09 23:18:51] [ZONES] USDJPYm | M30 Supply Zones:
+[2025-09-09 23:18:51]   -> Supply Zone: 145.92500 -> 148.03000
+[2025-09-09 23:18:51]   -> Supply Zone: 148.29700 -> 149.18400
+[2025-09-09 23:18:51]   -> Supply Zone: 150.27800 -> 150.91600
+[2025-09-09 23:18:51] Current Price: 147.40800
+[2025-09-09 23:18:51] [DEBUG] Fetching 5000 candles for USDJPYm on TF=M1
+[2025-09-09 23:18:51] [M1] USDJPYm: 5000 candles, price: 147.40800
+[2025-09-09 23:18:51] [M1] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:51] [DEBUG] Fetching 5000 candles for USDJPYm on TF=M5
+[2025-09-09 23:18:51] [M5] USDJPYm: 5000 candles, price: 147.40800
+[2025-09-09 23:18:51] [M5] USDJPYm near S/R but not broken for BUY. Skipping.
+[2025-09-09 23:18:51] [DEBUG] Fetching 3000 candles for USDJPYm on TF=M15
+[2025-09-09 23:18:51] [M15] USDJPYm: 3000 candles, price: 147.40800
+[2025-09-09 23:18:51] [M15] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:51] [DEBUG] Fetching 1500 candles for USDJPYm on TF=M30
+[2025-09-09 23:18:51] [M30] USDJPYm: 1500 candles, price: 147.40800
+[2025-09-09 23:18:51] [M30] USDJPYm near S/R but not broken for BUY. Skipping.
+[2025-09-09 23:18:51] [DEBUG] Fetching 1500 candles for USDJPYm on TF=H1
+[2025-09-09 23:18:51] [H1] USDJPYm: 1500 candles, price: 147.40800
+[2025-09-09 23:18:51] [H1] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:51] [DEBUG] Fetching 1500 candles for USDJPYm on TF=H2
+[2025-09-09 23:18:51] [H2] USDJPYm: 1500 candles, price: 147.40800
+[2025-09-09 23:18:51] [H2] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:51] [DEBUG] Fetching 2000 candles for USDJPYm on TF=H4
+[2025-09-09 23:18:51] [H4] USDJPYm: 2000 candles, price: 147.40800
+[2025-09-09 23:18:51] [H4] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:51] [DEBUG] Fetching 2000 candles for USDJPYm on TF=D1
+[2025-09-09 23:18:51] [D1] USDJPYm: 2000 candles, price: 147.40800
+[2025-09-09 23:18:51] [D1] USDJPYm reversal CONFIRMED
+[2025-09-09 23:18:51] [FINAL] USDJPYm reversal BUY CONFIRMED with 6 TFs
+[2025-09-09 23:18:51] [MATCH] Candle reversal confirmed in zone: 142.67700->150.91600 on M30
+[2025-09-09 23:18:51] [INFO] Closest buy zone: (142.677, 150.916), Distance: 0.6
+[2025-09-09 23:18:51] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:18:51] [PROCESSING] Checking EURAUDm
+[2025-09-09 23:18:51] [DEBUG] Fetching 4000 candles for EURAUDm on TF=M5
+[2025-09-09 23:18:51] [DEBUG] Fetching 3000 candles for EURAUDm on TF=M15
+[2025-09-09 23:18:51] [DEBUG] Fetching 3000 candles for EURAUDm on TF=M30
+[2025-09-09 23:18:51] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H1
+[2025-09-09 23:18:51] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H2
+[2025-09-09 23:18:51] [DEBUG] Fetching 2000 candles for EURAUDm on TF=H4
+[2025-09-09 23:18:51] [DEBUG] Fetching 2000 candles for EURAUDm on TF=D1
+[2025-09-09 23:18:51] [REJECTED] EURAUDm: M15 pattern Double Top conflicts with BUY.
+[2025-09-09 23:18:51] [PROCESSING] Checking XAUUSDm
+[2025-09-09 23:18:51] [DEBUG] Fetching 4000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:18:51] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:18:51] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M30
+[2025-09-09 23:18:51] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:18:51] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:18:51] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:18:51] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:18:51] [SCORE] XAUUSDm => Dir=SELL, Score=0.75, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Head and Shoulders']
+[2025-09-09 23:18:51] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M1
+[2025-09-09 23:18:51] [M1] XAUUSDm: 5000 candles, price: 3627.27600
+[2025-09-09 23:18:51] [M1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:51] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:18:51] [M5] XAUUSDm: 5000 candles, price: 3627.27600
+[2025-09-09 23:18:52] [M5] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:52] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:18:52] [M15] XAUUSDm: 3000 candles, price: 3627.29700
+[2025-09-09 23:18:52] [M15] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:52] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=M30
+[2025-09-09 23:18:52] [M30] XAUUSDm: 1500 candles, price: 3627.29700
+[2025-09-09 23:18:52] [M30] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:52] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:18:52] [H1] XAUUSDm: 1500 candles, price: 3627.29700
+[2025-09-09 23:18:52] [H1] XAUUSDm reversal REJECTED
+[2025-09-09 23:18:52] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:18:52] [H2] XAUUSDm: 1500 candles, price: 3627.29700
+[2025-09-09 23:18:52] [H2] XAUUSDm reversal REJECTED
+[2025-09-09 23:18:52] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:18:52] [H4] XAUUSDm: 2000 candles, price: 3627.29700
+[2025-09-09 23:18:52] [H4] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:52] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:18:52] [D1] XAUUSDm: 2000 candles, price: 3627.29700
+[2025-09-09 23:18:52] [D1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:52] [FINAL] XAUUSDm reversal SELL CONFIRMED with 6 TFs
+[2025-09-09 23:18:52] [DEBUG] No M15 data; using static tol=1.00000
+[2025-09-09 23:18:52] [DEBUG] ATR=7.15907, spread_thresh=7.15907, tightest_spread=8.68300
+[2025-09-09 23:18:53] [ZONES] XAUUSDm | M30 Demand Zones:
+[2025-09-09 23:18:53]   -> Demand Zone: 3247.92100 -> 3674.54100
+[2025-09-09 23:18:53]   -> Demand Zone: 3247.92100 -> 3291.76000
+[2025-09-09 23:18:53] [ZONES] XAUUSDm | M30 Supply Zones:
+[2025-09-09 23:18:53]   -> Supply Zone: 3511.21100 -> 3600.07600
+[2025-09-09 23:18:53]   -> Supply Zone: 3549.36900 -> 3578.42700
+[2025-09-09 23:18:53]   -> Supply Zone: 3626.63100 -> 3674.54100
+[2025-09-09 23:18:53] Current Price: 3627.27600
+[2025-09-09 23:18:53] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M1
+[2025-09-09 23:18:53] [M1] XAUUSDm: 5000 candles, price: 3626.81600
+[2025-09-09 23:18:53] [M1] XAUUSDm reversal REJECTED
+[2025-09-09 23:18:53] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:18:53] [M5] XAUUSDm: 5000 candles, price: 3626.81600
+[2025-09-09 23:18:53] [M5] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:53] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:18:53] [M15] XAUUSDm: 3000 candles, price: 3626.81600
+[2025-09-09 23:18:53] [M15] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:53] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=M30
+[2025-09-09 23:18:53] [M30] XAUUSDm: 1500 candles, price: 3626.81600
+[2025-09-09 23:18:53] [M30] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:53] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:18:53] [H1] XAUUSDm: 1500 candles, price: 3626.81600
+[2025-09-09 23:18:53] [H1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:53] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:18:53] [H2] XAUUSDm: 1500 candles, price: 3626.81600
+[2025-09-09 23:18:53] [H2] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:53] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:18:53] [H4] XAUUSDm: 2000 candles, price: 3626.81600
+[2025-09-09 23:18:53] [H4] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:53] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:18:53] [D1] XAUUSDm: 2000 candles, price: 3626.81600
+[2025-09-09 23:18:53] [D1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:18:53] [FINAL] XAUUSDm reversal SELL CONFIRMED with 7 TFs
+[2025-09-09 23:18:53] [MATCH] Candle reversal confirmed in zone: 3626.63100->3674.54100 on M30
+[2025-09-09 23:18:53] [INFO] Closest sell zone: (3626.631, 3674.541), Distance: 23.3
+[2025-09-09 23:18:53] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:18:53] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:18:53] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:18:53] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:18:53] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:18:53] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:18:53] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:18:53] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:18:53] [REJECTED] EURUSDm: No direction from indicators.
+[2025-09-09 23:19:21] [CRITICAL] 'charmap' codec can't encode character '\u2264' in position 54: character maps to <undefined>
+[2025-09-09 23:20:21] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:20:21] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:20:21] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:20:21] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:20:21] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:20:21] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:20:21] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:20:21] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:20:21] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:20:21] [SKIP] EURJPYm: Already in trade.
+[2025-09-09 23:20:21] [SKIP] USDJPYm: Already in trade.
+[2025-09-09 23:20:21] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:20:21] [PROCESSING] Checking EURAUDm
+[2025-09-09 23:20:21] [DEBUG] Fetching 4000 candles for EURAUDm on TF=M5
+[2025-09-09 23:20:21] [DEBUG] Fetching 3000 candles for EURAUDm on TF=M15
+[2025-09-09 23:20:21] [DEBUG] Fetching 3000 candles for EURAUDm on TF=M30
+[2025-09-09 23:20:21] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H1
+[2025-09-09 23:20:21] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H2
+[2025-09-09 23:20:21] [DEBUG] Fetching 2000 candles for EURAUDm on TF=H4
+[2025-09-09 23:20:21] [DEBUG] Fetching 2000 candles for EURAUDm on TF=D1
+[2025-09-09 23:20:21] [SCORE] EURAUDm => Dir=SELL, Score=0.75, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Double Top']
+[2025-09-09 23:20:21] [DEBUG] Fetching 5000 candles for EURAUDm on TF=M1
+[2025-09-09 23:20:21] [M1] EURAUDm: 5000 candles, price: 1.77803
+[2025-09-09 23:20:21] [M1] EURAUDm reversal CONFIRMED
+[2025-09-09 23:20:21] [DEBUG] Fetching 5000 candles for EURAUDm on TF=M5
+[2025-09-09 23:20:21] [M5] EURAUDm: 5000 candles, price: 1.77803
+[2025-09-09 23:20:21] [M5] EURAUDm reversal CONFIRMED
+[2025-09-09 23:20:21] [DEBUG] Fetching 3000 candles for EURAUDm on TF=M15
+[2025-09-09 23:20:21] [M15] EURAUDm: 3000 candles, price: 1.77803
+[2025-09-09 23:20:21] [M15] EURAUDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:20:21] [DEBUG] Fetching 1500 candles for EURAUDm on TF=M30
+[2025-09-09 23:20:21] [M30] EURAUDm: 1500 candles, price: 1.77803
+[2025-09-09 23:20:21] [M30] EURAUDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:20:21] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H1
+[2025-09-09 23:20:21] [H1] EURAUDm: 1500 candles, price: 1.77803
+[2025-09-09 23:20:22] [H1] EURAUDm reversal CONFIRMED
+[2025-09-09 23:20:22] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H2
+[2025-09-09 23:20:22] [H2] EURAUDm: 1500 candles, price: 1.77803
+[2025-09-09 23:20:22] [H2] EURAUDm reversal CONFIRMED
+[2025-09-09 23:20:22] [DEBUG] Fetching 2000 candles for EURAUDm on TF=H4
+[2025-09-09 23:20:22] [H4] EURAUDm: 2000 candles, price: 1.77803
+[2025-09-09 23:20:22] [H4] EURAUDm reversal CONFIRMED
+[2025-09-09 23:20:22] [DEBUG] Fetching 2000 candles for EURAUDm on TF=D1
+[2025-09-09 23:20:22] [D1] EURAUDm: 2000 candles, price: 1.77803
+[2025-09-09 23:20:22] [D1] EURAUDm reversal REJECTED
+[2025-09-09 23:20:22] [FINAL] EURAUDm reversal SELL CONFIRMED with 5 TFs
+[2025-09-09 23:20:22] [DEBUG] No M15 data; using static tol=0.00030
+[2025-09-09 23:20:22] [DEBUG] ATR=0.00102, spread_thresh=0.00102, tightest_spread=0.00188
+[2025-09-09 23:20:22] [ZONES] EURAUDm | M30 Demand Zones:
+[2025-09-09 23:20:22]   -> Demand Zone: 1.76247 -> 1.81560
+[2025-09-09 23:20:22] [ZONES] EURAUDm | M30 Supply Zones:
+[2025-09-09 23:20:22]   -> Supply Zone: 1.76247 -> 1.81428
+[2025-09-09 23:20:22]   -> Supply Zone: 1.78385 -> 1.79897
+[2025-09-09 23:20:22]   -> Supply Zone: 1.80012 -> 1.81560
+[2025-09-09 23:20:22] Current Price: 1.77803
+[2025-09-09 23:20:22] [DEBUG] Fetching 5000 candles for EURAUDm on TF=M1
+[2025-09-09 23:20:22] [M1] EURAUDm: 5000 candles, price: 1.77804
+[2025-09-09 23:20:23] [M1] EURAUDm reversal CONFIRMED
+[2025-09-09 23:20:23] [DEBUG] Fetching 5000 candles for EURAUDm on TF=M5
+[2025-09-09 23:20:23] [M5] EURAUDm: 5000 candles, price: 1.77804
+[2025-09-09 23:20:23] [M5] EURAUDm reversal CONFIRMED
+[2025-09-09 23:20:23] [DEBUG] Fetching 3000 candles for EURAUDm on TF=M15
+[2025-09-09 23:20:23] [M15] EURAUDm: 3000 candles, price: 1.77804
+[2025-09-09 23:20:23] [M15] EURAUDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:20:23] [DEBUG] Fetching 1500 candles for EURAUDm on TF=M30
+[2025-09-09 23:20:23] [M30] EURAUDm: 1500 candles, price: 1.77804
+[2025-09-09 23:20:23] [M30] EURAUDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:20:23] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H1
+[2025-09-09 23:20:23] [H1] EURAUDm: 1500 candles, price: 1.77804
+[2025-09-09 23:20:23] [H1] EURAUDm reversal CONFIRMED
+[2025-09-09 23:20:23] [DEBUG] Fetching 1500 candles for EURAUDm on TF=H2
+[2025-09-09 23:20:23] [H2] EURAUDm: 1500 candles, price: 1.77804
+[2025-09-09 23:20:23] [H2] EURAUDm reversal CONFIRMED
+[2025-09-09 23:20:23] [DEBUG] Fetching 2000 candles for EURAUDm on TF=H4
+[2025-09-09 23:20:23] [H4] EURAUDm: 2000 candles, price: 1.77804
+[2025-09-09 23:20:23] [H4] EURAUDm reversal CONFIRMED
+[2025-09-09 23:20:23] [DEBUG] Fetching 2000 candles for EURAUDm on TF=D1
+[2025-09-09 23:20:23] [D1] EURAUDm: 2000 candles, price: 1.77804
+[2025-09-09 23:20:23] [D1] EURAUDm reversal REJECTED
+[2025-09-09 23:20:23] [FINAL] EURAUDm reversal SELL CONFIRMED with 5 TFs
+[2025-09-09 23:20:23] [MATCH] Candle reversal confirmed in zone: 1.76247->1.81428 on M30
+[2025-09-09 23:20:23] [INFO] Closest sell zone: (1.76247, 1.8142800000000001), Distance: 0.0
+[2025-09-09 23:20:23] [PROCESSING] Checking XAUUSDm
+[2025-09-09 23:20:23] [DEBUG] Fetching 4000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:20:23] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:20:23] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M30
+[2025-09-09 23:20:23] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:20:23] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:20:23] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:20:23] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:20:23] [SCORE] XAUUSDm => Dir=SELL, Score=0.75, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Head and Shoulders']
+[2025-09-09 23:20:23] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M1
+[2025-09-09 23:20:23] [M1] XAUUSDm: 5000 candles, price: 3626.35400
+[2025-09-09 23:20:23] [M1] XAUUSDm reversal REJECTED
+[2025-09-09 23:20:23] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:20:23] [M5] XAUUSDm: 5000 candles, price: 3626.35400
+[2025-09-09 23:20:23] [M5] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:23] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:20:23] [M15] XAUUSDm: 3000 candles, price: 3626.35400
+[2025-09-09 23:20:24] [M15] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:24] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=M30
+[2025-09-09 23:20:24] [M30] XAUUSDm: 1500 candles, price: 3626.35400
+[2025-09-09 23:20:24] [M30] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:24] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:20:24] [H1] XAUUSDm: 1500 candles, price: 3626.35400
+[2025-09-09 23:20:24] [H1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:24] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:20:24] [H2] XAUUSDm: 1500 candles, price: 3626.35400
+[2025-09-09 23:20:24] [H2] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:24] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:20:24] [H4] XAUUSDm: 2000 candles, price: 3626.35400
+[2025-09-09 23:20:24] [H4] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:24] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:20:24] [D1] XAUUSDm: 2000 candles, price: 3626.35400
+[2025-09-09 23:20:24] [D1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:24] [FINAL] XAUUSDm reversal SELL CONFIRMED with 7 TFs
+[2025-09-09 23:20:24] [DEBUG] No M15 data; using static tol=1.00000
+[2025-09-09 23:20:24] [DEBUG] ATR=7.15907, spread_thresh=7.15907, tightest_spread=8.68300
+[2025-09-09 23:20:25] [ZONES] XAUUSDm | M30 Demand Zones:
+[2025-09-09 23:20:25]   -> Demand Zone: 3247.92100 -> 3674.54100
+[2025-09-09 23:20:25]   -> Demand Zone: 3247.92100 -> 3291.76000
+[2025-09-09 23:20:25] [ZONES] XAUUSDm | M30 Supply Zones:
+[2025-09-09 23:20:25]   -> Supply Zone: 3511.21100 -> 3600.07600
+[2025-09-09 23:20:25]   -> Supply Zone: 3549.36900 -> 3578.42700
+[2025-09-09 23:20:25]   -> Supply Zone: 3626.63100 -> 3674.54100
+[2025-09-09 23:20:25] Current Price: 3626.35400
+[2025-09-09 23:20:25] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M1
+[2025-09-09 23:20:25] [M1] XAUUSDm: 5000 candles, price: 3626.40500
+[2025-09-09 23:20:25] [M1] XAUUSDm reversal REJECTED
+[2025-09-09 23:20:25] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:20:25] [M5] XAUUSDm: 5000 candles, price: 3626.40500
+[2025-09-09 23:20:25] [M5] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:25] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:20:25] [M15] XAUUSDm: 3000 candles, price: 3626.40500
+[2025-09-09 23:20:25] [M15] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:25] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=M30
+[2025-09-09 23:20:25] [M30] XAUUSDm: 1500 candles, price: 3626.25000
+[2025-09-09 23:20:25] [M30] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:25] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:20:25] [H1] XAUUSDm: 1500 candles, price: 3626.21600
+[2025-09-09 23:20:25] [H1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:25] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:20:25] [H2] XAUUSDm: 1500 candles, price: 3626.21600
+[2025-09-09 23:20:25] [H2] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:25] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:20:25] [H4] XAUUSDm: 2000 candles, price: 3626.21600
+[2025-09-09 23:20:25] [H4] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:25] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:20:25] [D1] XAUUSDm: 2000 candles, price: 3626.21600
+[2025-09-09 23:20:25] [D1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:20:25] [FINAL] XAUUSDm reversal SELL CONFIRMED with 7 TFs
+[2025-09-09 23:20:25] [MATCH] Candle reversal confirmed in zone: 3626.63100->3674.54100 on M30
+[2025-09-09 23:20:25] [INFO] Closest sell zone: (3626.631, 3674.541), Distance: 24.2
+[2025-09-09 23:20:25] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:20:25] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:20:25] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:20:25] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:20:25] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:20:25] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:20:25] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:20:25] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:20:26] [SCORE] EURUSDm => Dir=SELL, Score=0.90, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Candle pattern (confirmed)', 'Chart=Descending Triangle']
+[2025-09-09 23:20:26] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:20:26] [M1] EURUSDm: 5000 candles, price: 1.17104
+[2025-09-09 23:20:26] [M1] EURUSDm reversal CONFIRMED
+[2025-09-09 23:20:26] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:20:26] [M5] EURUSDm: 5000 candles, price: 1.17104
+[2025-09-09 23:20:26] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:20:26] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:20:26] [M15] EURUSDm: 3000 candles, price: 1.17104
+[2025-09-09 23:20:26] [M15] EURUSDm reversal CONFIRMED
+[2025-09-09 23:20:26] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:20:26] [M30] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:20:26] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:20:26] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:20:26] [H1] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:20:26] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:20:26] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:20:26] [H2] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:20:26] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:20:26] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:20:26] [H4] EURUSDm: 2000 candles, price: 1.17104
+[2025-09-09 23:20:26] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:20:26] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:20:26] [D1] EURUSDm: 2000 candles, price: 1.17104
+[2025-09-09 23:20:26] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:20:26] [FINAL] EURUSDm reversal SELL CONFIRMED with 4 TFs
+[2025-09-09 23:20:26] [DEBUG] No M15 data; using static tol=0.00030
+[2025-09-09 23:20:26] [DEBUG] ATR=0.00068, spread_thresh=0.00068, tightest_spread=0.00133
+[2025-09-09 23:20:27] [ZONES] EURUSDm | M30 Demand Zones:
+[2025-09-09 23:20:27]   -> Demand Zone: 1.13909 -> 1.18296
+[2025-09-09 23:20:27]   -> Demand Zone: 1.13982 -> 1.14423
+[2025-09-09 23:20:27] [ZONES] EURUSDm | M30 Supply Zones:
+[2025-09-09 23:20:27]   -> Supply Zone: 1.15694 -> 1.16145
+[2025-09-09 23:20:27]   -> Supply Zone: 1.16538 -> 1.18097
+[2025-09-09 23:20:27]   -> Supply Zone: 1.17610 -> 1.18296
+[2025-09-09 23:20:27] Current Price: 1.17104
+[2025-09-09 23:20:27] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:20:27] [M1] EURUSDm: 5000 candles, price: 1.17104
+[2025-09-09 23:20:27] [M1] EURUSDm reversal CONFIRMED
+[2025-09-09 23:20:27] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:20:27] [M5] EURUSDm: 5000 candles, price: 1.17104
+[2025-09-09 23:20:27] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:20:27] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:20:27] [M15] EURUSDm: 3000 candles, price: 1.17104
+[2025-09-09 23:20:27] [M15] EURUSDm reversal CONFIRMED
+[2025-09-09 23:20:27] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:20:27] [M30] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:20:27] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:20:27] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:20:27] [H1] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:20:27] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:20:27] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:20:27] [H2] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:20:27] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:20:27] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:20:27] [H4] EURUSDm: 2000 candles, price: 1.17104
+[2025-09-09 23:20:27] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:20:27] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:20:27] [D1] EURUSDm: 2000 candles, price: 1.17104
+[2025-09-09 23:20:27] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:20:27] [FINAL] EURUSDm reversal SELL CONFIRMED with 4 TFs
+[2025-09-09 23:20:27] [MATCH] Candle reversal confirmed in zone: 1.16538->1.18097 on M30
+[2025-09-09 23:20:27] [INFO] Closest sell zone: (1.16538, 1.18097), Distance: 0.0
+[2025-09-09 23:20:27] [REJECTED] EURUSDm: In SELL zone but no reversal pattern detected.
+[2025-09-09 23:20:31] [CRITICAL] 'charmap' codec can't encode character '\u2264' in position 55: character maps to <undefined>
+[2025-09-09 23:21:31] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:21:31] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:21:31] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:21:31] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:21:31] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:21:31] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:21:31] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:21:31] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:21:31] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:21:31] [SKIP] EURJPYm: Already in trade.
+[2025-09-09 23:21:31] [SKIP] USDJPYm: Already in trade.
+[2025-09-09 23:21:31] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:21:31] [SKIP] EURAUDm: Already in trade.
+[2025-09-09 23:21:31] [PROCESSING] Checking XAUUSDm
+[2025-09-09 23:21:31] [DEBUG] Fetching 4000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:21:31] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:21:31] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M30
+[2025-09-09 23:21:31] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:21:31] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:21:31] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:21:31] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:21:31] [SCORE] XAUUSDm => Dir=SELL, Score=0.75, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Chart=Head and Shoulders']
+[2025-09-09 23:21:31] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M1
+[2025-09-09 23:21:31] [M1] XAUUSDm: 5000 candles, price: 3626.50400
+[2025-09-09 23:21:32] [M1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:32] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:21:32] [M5] XAUUSDm: 5000 candles, price: 3626.50400
+[2025-09-09 23:21:32] [M5] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:32] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:21:32] [M15] XAUUSDm: 3000 candles, price: 3626.50400
+[2025-09-09 23:21:32] [M15] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:32] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=M30
+[2025-09-09 23:21:32] [M30] XAUUSDm: 1500 candles, price: 3626.50400
+[2025-09-09 23:21:32] [M30] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:32] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:21:32] [H1] XAUUSDm: 1500 candles, price: 3626.56300
+[2025-09-09 23:21:32] [H1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:32] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:21:32] [H2] XAUUSDm: 1500 candles, price: 3626.58800
+[2025-09-09 23:21:32] [H2] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:32] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:21:32] [H4] XAUUSDm: 2000 candles, price: 3626.58800
+[2025-09-09 23:21:32] [H4] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:32] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:21:32] [D1] XAUUSDm: 2000 candles, price: 3626.58800
+[2025-09-09 23:21:32] [D1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:32] [FINAL] XAUUSDm reversal SELL CONFIRMED with 8 TFs
+[2025-09-09 23:21:32] [DEBUG] No M15 data; using static tol=1.00000
+[2025-09-09 23:21:32] [DEBUG] ATR=7.15907, spread_thresh=7.15907, tightest_spread=8.68300
+[2025-09-09 23:21:33] [ZONES] XAUUSDm | M30 Demand Zones:
+[2025-09-09 23:21:33]   -> Demand Zone: 3247.92100 -> 3674.54100
+[2025-09-09 23:21:33]   -> Demand Zone: 3247.92100 -> 3291.76000
+[2025-09-09 23:21:33] [ZONES] XAUUSDm | M30 Supply Zones:
+[2025-09-09 23:21:33]   -> Supply Zone: 3511.21100 -> 3600.07600
+[2025-09-09 23:21:33]   -> Supply Zone: 3549.36900 -> 3578.42700
+[2025-09-09 23:21:33]   -> Supply Zone: 3626.63100 -> 3674.54100
+[2025-09-09 23:21:33] Current Price: 3626.50400
+[2025-09-09 23:21:33] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M1
+[2025-09-09 23:21:33] [M1] XAUUSDm: 5000 candles, price: 3626.60100
+[2025-09-09 23:21:33] [M1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:33] [DEBUG] Fetching 5000 candles for XAUUSDm on TF=M5
+[2025-09-09 23:21:33] [M5] XAUUSDm: 5000 candles, price: 3626.60100
+[2025-09-09 23:21:33] [M5] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:33] [DEBUG] Fetching 3000 candles for XAUUSDm on TF=M15
+[2025-09-09 23:21:33] [M15] XAUUSDm: 3000 candles, price: 3626.60100
+[2025-09-09 23:21:33] [M15] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:33] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=M30
+[2025-09-09 23:21:33] [M30] XAUUSDm: 1500 candles, price: 3626.60100
+[2025-09-09 23:21:33] [M30] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:33] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H1
+[2025-09-09 23:21:33] [H1] XAUUSDm: 1500 candles, price: 3626.60100
+[2025-09-09 23:21:34] [H1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:34] [DEBUG] Fetching 1500 candles for XAUUSDm on TF=H2
+[2025-09-09 23:21:34] [H2] XAUUSDm: 1500 candles, price: 3626.60100
+[2025-09-09 23:21:34] [H2] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:34] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=H4
+[2025-09-09 23:21:34] [H4] XAUUSDm: 2000 candles, price: 3626.60100
+[2025-09-09 23:21:34] [H4] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:34] [DEBUG] Fetching 2000 candles for XAUUSDm on TF=D1
+[2025-09-09 23:21:34] [D1] XAUUSDm: 2000 candles, price: 3626.60100
+[2025-09-09 23:21:34] [D1] XAUUSDm reversal CONFIRMED
+[2025-09-09 23:21:34] [FINAL] XAUUSDm reversal SELL CONFIRMED with 8 TFs
+[2025-09-09 23:21:34] [MATCH] Candle reversal confirmed in zone: 3626.63100->3674.54100 on M30
+[2025-09-09 23:21:34] [INFO] Closest sell zone: (3626.631, 3674.541), Distance: 24.1
+[2025-09-09 23:21:34] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:21:34] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:21:34] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:21:34] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:21:34] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:21:34] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:21:34] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:21:34] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:21:34] [SCORE] EURUSDm => Dir=SELL, Score=0.90, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Candle pattern (confirmed)', 'Chart=Descending Triangle']
+[2025-09-09 23:21:34] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:21:34] [M1] EURUSDm: 5000 candles, price: 1.17104
+[2025-09-09 23:21:34] [M1] EURUSDm reversal REJECTED
+[2025-09-09 23:21:34] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:21:34] [M5] EURUSDm: 5000 candles, price: 1.17104
+[2025-09-09 23:21:34] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:21:34] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:21:34] [M15] EURUSDm: 3000 candles, price: 1.17104
+[2025-09-09 23:21:34] [M15] EURUSDm reversal CONFIRMED
+[2025-09-09 23:21:34] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:21:34] [M30] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:21:34] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:21:34] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:21:34] [H1] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:21:34] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:21:34] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:21:34] [H2] EURUSDm: 1500 candles, price: 1.17104
+[2025-09-09 23:21:35] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:21:35] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:21:35] [H4] EURUSDm: 2000 candles, price: 1.17104
+[2025-09-09 23:21:35] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:21:35] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:21:35] [D1] EURUSDm: 2000 candles, price: 1.17104
+[2025-09-09 23:21:35] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:21:35] [FINAL] EURUSDm reversal SELL REJECTED – only 3 TFs
+[2025-09-09 23:21:35] [REJECTED] EURUSDm: Reversal filter failed.
+[2025-09-09 23:21:57] [CRITICAL] 'charmap' codec can't encode character '\u2264' in position 55: character maps to <undefined>
+[2025-09-09 23:22:57] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:22:57] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:22:57] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:22:57] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:22:57] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:22:57] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:22:57] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:22:57] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:22:57] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:22:57] [SKIP] EURJPYm: Already in trade.
+[2025-09-09 23:22:57] [SKIP] USDJPYm: Already in trade.
+[2025-09-09 23:22:57] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:22:57] [SKIP] EURAUDm: Already in trade.
+[2025-09-09 23:22:57] [SKIP] XAUUSDm: Already in trade.
+[2025-09-09 23:22:57] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:22:57] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:22:57] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:22:57] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:22:57] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:22:57] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:22:57] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:22:57] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:22:57] [SCORE] EURUSDm => Dir=SELL, Score=0.90, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Candle pattern (confirmed)', 'Chart=Descending Triangle']
+[2025-09-09 23:22:57] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:22:57] [M1] EURUSDm: 5000 candles, price: 1.17095
+[2025-09-09 23:22:57] [M1] EURUSDm reversal REJECTED
+[2025-09-09 23:22:57] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:22:57] [M5] EURUSDm: 5000 candles, price: 1.17095
+[2025-09-09 23:22:57] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:22:57] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:22:57] [M15] EURUSDm: 3000 candles, price: 1.17095
+[2025-09-09 23:22:57] [M15] EURUSDm reversal REJECTED
+[2025-09-09 23:22:57] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:22:57] [M30] EURUSDm: 1500 candles, price: 1.17095
+[2025-09-09 23:22:58] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:22:58] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:22:58] [H1] EURUSDm: 1500 candles, price: 1.17095
+[2025-09-09 23:22:58] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:22:58] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:22:58] [H2] EURUSDm: 1500 candles, price: 1.17095
+[2025-09-09 23:22:58] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:22:58] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:22:58] [H4] EURUSDm: 2000 candles, price: 1.17095
+[2025-09-09 23:22:58] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:22:58] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:22:58] [D1] EURUSDm: 2000 candles, price: 1.17095
+[2025-09-09 23:22:58] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:22:58] [FINAL] EURUSDm reversal SELL REJECTED – only 2 TFs
+[2025-09-09 23:22:58] [REJECTED] EURUSDm: Reversal filter failed.
+[2025-09-09 23:22:58] No valid trade setup found.
+[2025-09-09 23:23:58] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:23:58] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:23:58] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:23:58] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:23:58] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:23:58] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:23:58] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:23:58] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:23:58] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:23:58] [SKIP] EURJPYm: Already in trade.
+[2025-09-09 23:23:58] [SKIP] USDJPYm: Already in trade.
+[2025-09-09 23:23:58] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:23:58] [SKIP] EURAUDm: Already in trade.
+[2025-09-09 23:23:58] [SKIP] XAUUSDm: Already in trade.
+[2025-09-09 23:23:58] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:23:58] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:23:58] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:23:58] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:23:58] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:23:58] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:23:58] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:23:58] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:23:58] [SCORE] EURUSDm => Dir=SELL, Score=0.90, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Candle pattern (confirmed)', 'Chart=Descending Triangle']
+[2025-09-09 23:23:58] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:23:58] [M1] EURUSDm: 5000 candles, price: 1.17099
+[2025-09-09 23:23:58] [M1] EURUSDm reversal CONFIRMED
+[2025-09-09 23:23:58] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:23:58] [M5] EURUSDm: 5000 candles, price: 1.17099
+[2025-09-09 23:23:58] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:23:58] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:23:58] [M15] EURUSDm: 3000 candles, price: 1.17099
+[2025-09-09 23:23:58] [M15] EURUSDm reversal CONFIRMED
+[2025-09-09 23:23:58] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:23:58] [M30] EURUSDm: 1500 candles, price: 1.17099
+[2025-09-09 23:23:58] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:23:59] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:23:59] [H1] EURUSDm: 1500 candles, price: 1.17099
+[2025-09-09 23:23:59] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:23:59] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:23:59] [H2] EURUSDm: 1500 candles, price: 1.17099
+[2025-09-09 23:23:59] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:23:59] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:23:59] [H4] EURUSDm: 2000 candles, price: 1.17099
+[2025-09-09 23:23:59] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:23:59] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:23:59] [D1] EURUSDm: 2000 candles, price: 1.17099
+[2025-09-09 23:23:59] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:23:59] [FINAL] EURUSDm reversal SELL CONFIRMED with 4 TFs
+[2025-09-09 23:23:59] [DEBUG] No M15 data; using static tol=0.00030
+[2025-09-09 23:23:59] [DEBUG] ATR=0.00068, spread_thresh=0.00068, tightest_spread=0.00133
+[2025-09-09 23:24:00] [ZONES] EURUSDm | M30 Demand Zones:
+[2025-09-09 23:24:00]   -> Demand Zone: 1.13909 -> 1.18296
+[2025-09-09 23:24:00]   -> Demand Zone: 1.13982 -> 1.14423
+[2025-09-09 23:24:00] [ZONES] EURUSDm | M30 Supply Zones:
+[2025-09-09 23:24:00]   -> Supply Zone: 1.15694 -> 1.16145
+[2025-09-09 23:24:00]   -> Supply Zone: 1.16538 -> 1.18097
+[2025-09-09 23:24:00]   -> Supply Zone: 1.17610 -> 1.18296
+[2025-09-09 23:24:00] Current Price: 1.17099
+[2025-09-09 23:24:00] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:24:00] [M1] EURUSDm: 5000 candles, price: 1.17099
+[2025-09-09 23:24:00] [M1] EURUSDm reversal CONFIRMED
+[2025-09-09 23:24:00] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:24:00] [M5] EURUSDm: 5000 candles, price: 1.17099
+[2025-09-09 23:24:00] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:24:00] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:24:00] [M15] EURUSDm: 3000 candles, price: 1.17099
+[2025-09-09 23:24:00] [M15] EURUSDm reversal CONFIRMED
+[2025-09-09 23:24:00] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:24:00] [M30] EURUSDm: 1500 candles, price: 1.17099
+[2025-09-09 23:24:00] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:24:00] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:24:00] [H1] EURUSDm: 1500 candles, price: 1.17099
+[2025-09-09 23:24:00] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:24:00] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:24:00] [H2] EURUSDm: 1500 candles, price: 1.17099
+[2025-09-09 23:24:00] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:24:00] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:24:00] [H4] EURUSDm: 2000 candles, price: 1.17099
+[2025-09-09 23:24:00] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:24:00] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:24:00] [D1] EURUSDm: 2000 candles, price: 1.17099
+[2025-09-09 23:24:01] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:24:01] [FINAL] EURUSDm reversal SELL CONFIRMED with 4 TFs
+[2025-09-09 23:24:01] [MATCH] Candle reversal confirmed in zone: 1.16538->1.18097 on M30
+[2025-09-09 23:24:01] [INFO] Closest sell zone: (1.16538, 1.18097), Distance: 0.0
+[2025-09-09 23:24:01] [REJECTED] EURUSDm: In SELL zone but no reversal pattern detected.
+[2025-09-09 23:24:01] No valid trade setup found.
+[2025-09-09 23:25:01] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:25:01] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:25:01] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:25:01] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:25:01] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:25:01] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:25:01] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:25:01] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:25:01] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:25:01] [SKIP] EURJPYm: Already in trade.
+[2025-09-09 23:25:01] [SKIP] USDJPYm: Already in trade.
+[2025-09-09 23:25:01] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:25:01] [SKIP] EURAUDm: Already in trade.
+[2025-09-09 23:25:01] [SKIP] XAUUSDm: Already in trade.
+[2025-09-09 23:25:01] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:25:01] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:25:01] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:25:01] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:25:01] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:25:01] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:25:01] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:25:01] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:25:01] [SCORE] EURUSDm => Dir=SELL, Score=0.90, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Candle pattern (confirmed)', 'Chart=Descending Triangle']
+[2025-09-09 23:25:01] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:25:01] [M1] EURUSDm: 5000 candles, price: 1.17097
+[2025-09-09 23:25:01] [M1] EURUSDm reversal REJECTED
+[2025-09-09 23:25:01] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:25:01] [M5] EURUSDm: 5000 candles, price: 1.17097
+[2025-09-09 23:25:01] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:25:01] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:25:01] [M15] EURUSDm: 3000 candles, price: 1.17097
+[2025-09-09 23:25:01] [M15] EURUSDm reversal CONFIRMED
+[2025-09-09 23:25:01] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:25:01] [M30] EURUSDm: 1500 candles, price: 1.17097
+[2025-09-09 23:25:01] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:25:01] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:25:01] [H1] EURUSDm: 1500 candles, price: 1.17097
+[2025-09-09 23:25:01] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:25:01] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:25:01] [H2] EURUSDm: 1500 candles, price: 1.17097
+[2025-09-09 23:25:01] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:25:01] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:25:01] [H4] EURUSDm: 2000 candles, price: 1.17097
+[2025-09-09 23:25:01] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:25:01] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:25:01] [D1] EURUSDm: 2000 candles, price: 1.17097
+[2025-09-09 23:25:02] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:25:02] [FINAL] EURUSDm reversal SELL REJECTED – only 3 TFs
+[2025-09-09 23:25:02] [REJECTED] EURUSDm: Reversal filter failed.
+[2025-09-09 23:25:02] No valid trade setup found.
+[2025-09-09 23:26:02] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:26:02] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:26:02] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:26:02] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:26:02] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:26:02] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:26:02] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:26:02] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:26:02] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:26:02] [SKIP] EURJPYm: Already in trade.
+[2025-09-09 23:26:02] [SKIP] USDJPYm: Already in trade.
+[2025-09-09 23:26:02] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:26:02] [SKIP] EURAUDm: Already in trade.
+[2025-09-09 23:26:02] [SKIP] XAUUSDm: Already in trade.
+[2025-09-09 23:26:02] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:26:02] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:26:02] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:26:02] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:26:02] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:26:02] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:26:02] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:26:02] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:26:02] [SCORE] EURUSDm => Dir=SELL, Score=0.90, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Candle pattern (confirmed)', 'Chart=Descending Triangle']
+[2025-09-09 23:26:02] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:26:02] [M1] EURUSDm: 5000 candles, price: 1.17095
+[2025-09-09 23:26:02] [M1] EURUSDm reversal CONFIRMED
+[2025-09-09 23:26:02] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:26:02] [M5] EURUSDm: 5000 candles, price: 1.17095
+[2025-09-09 23:26:02] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:26:02] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:26:02] [M15] EURUSDm: 3000 candles, price: 1.17095
+[2025-09-09 23:26:02] [M15] EURUSDm reversal REJECTED
+[2025-09-09 23:26:02] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:26:02] [M30] EURUSDm: 1500 candles, price: 1.17095
+[2025-09-09 23:26:02] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:26:02] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:26:02] [H1] EURUSDm: 1500 candles, price: 1.17095
+[2025-09-09 23:26:02] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:26:02] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:26:02] [H2] EURUSDm: 1500 candles, price: 1.17095
+[2025-09-09 23:26:02] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:26:02] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:26:02] [H4] EURUSDm: 2000 candles, price: 1.17095
+[2025-09-09 23:26:02] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:26:02] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:26:02] [D1] EURUSDm: 2000 candles, price: 1.17095
+[2025-09-09 23:26:03] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:26:03] [FINAL] EURUSDm reversal SELL REJECTED – only 3 TFs
+[2025-09-09 23:26:03] [REJECTED] EURUSDm: Reversal filter failed.
+[2025-09-09 23:26:03] No valid trade setup found.
+[2025-09-09 23:27:03] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:27:03] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:27:03] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:27:03] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:27:03] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:27:03] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:27:03] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:27:03] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:27:03] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:27:03] [SKIP] EURJPYm: Already in trade.
+[2025-09-09 23:27:03] [SKIP] USDJPYm: Already in trade.
+[2025-09-09 23:27:03] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:27:03] [SKIP] EURAUDm: Already in trade.
+[2025-09-09 23:27:03] [SKIP] XAUUSDm: Already in trade.
+[2025-09-09 23:27:03] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:27:03] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:27:03] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:27:03] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:27:03] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:27:03] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:27:03] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:27:03] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:27:03] [SCORE] EURUSDm => Dir=SELL, Score=0.90, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Candle pattern (confirmed)', 'Chart=Descending Triangle']
+[2025-09-09 23:27:03] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:27:03] [M1] EURUSDm: 5000 candles, price: 1.17095
+[2025-09-09 23:27:03] [M1] EURUSDm reversal CONFIRMED
+[2025-09-09 23:27:03] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:27:03] [M5] EURUSDm: 5000 candles, price: 1.17095
+[2025-09-09 23:27:03] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:27:03] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:27:03] [M15] EURUSDm: 3000 candles, price: 1.17095
+[2025-09-09 23:27:03] [M15] EURUSDm reversal REJECTED
+[2025-09-09 23:27:03] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:27:03] [M30] EURUSDm: 1500 candles, price: 1.17095
+[2025-09-09 23:27:03] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:27:03] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:27:03] [H1] EURUSDm: 1500 candles, price: 1.17095
+[2025-09-09 23:27:03] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:27:03] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:27:03] [H2] EURUSDm: 1500 candles, price: 1.17095
+[2025-09-09 23:27:03] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:27:03] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:27:03] [H4] EURUSDm: 2000 candles, price: 1.17095
+[2025-09-09 23:27:03] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:27:03] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:27:03] [D1] EURUSDm: 2000 candles, price: 1.17095
+[2025-09-09 23:27:04] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:27:04] [FINAL] EURUSDm reversal SELL REJECTED – only 3 TFs
+[2025-09-09 23:27:04] [REJECTED] EURUSDm: Reversal filter failed.
+[2025-09-09 23:27:04] No valid trade setup found.
+[2025-09-09 23:28:04] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:28:04] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:28:04] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:28:04] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:28:04] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:28:04] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:28:04] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:28:04] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:28:04] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:28:04] [SKIP] EURJPYm: Already in trade.
+[2025-09-09 23:28:04] [SKIP] USDJPYm: Already in trade.
+[2025-09-09 23:28:04] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:28:04] [SKIP] EURAUDm: Already in trade.
+[2025-09-09 23:28:04] [SKIP] XAUUSDm: Already in trade.
+[2025-09-09 23:28:04] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:28:04] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:28:04] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:28:04] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:28:04] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:28:04] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:28:04] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:28:04] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:28:04] [SCORE] EURUSDm => Dir=SELL, Score=0.90, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Candle pattern (confirmed)', 'Chart=Descending Triangle']
+[2025-09-09 23:28:04] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:28:04] [M1] EURUSDm: 5000 candles, price: 1.17088
+[2025-09-09 23:28:04] [M1] EURUSDm reversal REJECTED
+[2025-09-09 23:28:04] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:28:04] [M5] EURUSDm: 5000 candles, price: 1.17088
+[2025-09-09 23:28:04] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:28:04] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:28:04] [M15] EURUSDm: 3000 candles, price: 1.17088
+[2025-09-09 23:28:04] [M15] EURUSDm reversal REJECTED
+[2025-09-09 23:28:04] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:28:04] [M30] EURUSDm: 1500 candles, price: 1.17088
+[2025-09-09 23:28:04] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:28:04] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:28:04] [H1] EURUSDm: 1500 candles, price: 1.17088
+[2025-09-09 23:28:04] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:28:04] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:28:04] [H2] EURUSDm: 1500 candles, price: 1.17088
+[2025-09-09 23:28:04] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:28:04] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:28:04] [H4] EURUSDm: 2000 candles, price: 1.17088
+[2025-09-09 23:28:04] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:28:04] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:28:04] [D1] EURUSDm: 2000 candles, price: 1.17088
+[2025-09-09 23:28:05] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:28:05] [FINAL] EURUSDm reversal SELL REJECTED – only 2 TFs
+[2025-09-09 23:28:05] [REJECTED] EURUSDm: Reversal filter failed.
+[2025-09-09 23:28:05] No valid trade setup found.
+[2025-09-09 23:29:05] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:29:05] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:29:05] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:29:05] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:29:05] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:29:05] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:29:05] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:29:05] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:29:05] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:29:05] [SKIP] EURJPYm: Already in trade.
+[2025-09-09 23:29:05] [SKIP] USDJPYm: Already in trade.
+[2025-09-09 23:29:05] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:29:05] [SKIP] EURAUDm: Already in trade.
+[2025-09-09 23:29:05] [SKIP] XAUUSDm: Already in trade.
+[2025-09-09 23:29:05] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:29:05] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:29:05] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:29:05] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:29:05] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:29:05] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:29:05] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:29:05] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:29:05] [SCORE] EURUSDm => Dir=SELL, Score=0.90, Reasons=['Trend=downtrend', 'Momentum=SELL', 'Near support/resistance', 'Respecting trendline', 'Candle pattern (confirmed)', 'Chart=Descending Triangle']
+[2025-09-09 23:29:05] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M1
+[2025-09-09 23:29:05] [M1] EURUSDm: 5000 candles, price: 1.17089
+[2025-09-09 23:29:05] [M1] EURUSDm reversal CONFIRMED
+[2025-09-09 23:29:05] [DEBUG] Fetching 5000 candles for EURUSDm on TF=M5
+[2025-09-09 23:29:05] [M5] EURUSDm: 5000 candles, price: 1.17089
+[2025-09-09 23:29:05] [M5] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:29:05] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:29:05] [M15] EURUSDm: 3000 candles, price: 1.17089
+[2025-09-09 23:29:05] [M15] EURUSDm reversal REJECTED
+[2025-09-09 23:29:05] [DEBUG] Fetching 1500 candles for EURUSDm on TF=M30
+[2025-09-09 23:29:05] [M30] EURUSDm: 1500 candles, price: 1.17089
+[2025-09-09 23:29:05] [M30] EURUSDm reversal CONFIRMED
+[2025-09-09 23:29:05] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:29:05] [H1] EURUSDm: 1500 candles, price: 1.17089
+[2025-09-09 23:29:05] [H1] EURUSDm near S/R but not broken for SELL. Skipping.
+[2025-09-09 23:29:05] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:29:05] [H2] EURUSDm: 1500 candles, price: 1.17089
+[2025-09-09 23:29:05] [H2] EURUSDm reversal CONFIRMED
+[2025-09-09 23:29:05] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:29:05] [H4] EURUSDm: 2000 candles, price: 1.17089
+[2025-09-09 23:29:05] [H4] EURUSDm reversal REJECTED
+[2025-09-09 23:29:05] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:29:05] [D1] EURUSDm: 2000 candles, price: 1.17089
+[2025-09-09 23:29:05] [D1] EURUSDm reversal REJECTED
+[2025-09-09 23:29:05] [FINAL] EURUSDm reversal SELL REJECTED – only 3 TFs
+[2025-09-09 23:29:05] [REJECTED] EURUSDm: Reversal filter failed.
+[2025-09-09 23:29:05] No valid trade setup found.
+[2025-09-09 23:30:05] [PROCESSING] Checking GBPJPYm
+[2025-09-09 23:30:05] [DEBUG] Fetching 4000 candles for GBPJPYm on TF=M5
+[2025-09-09 23:30:05] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M15
+[2025-09-09 23:30:05] [DEBUG] Fetching 3000 candles for GBPJPYm on TF=M30
+[2025-09-09 23:30:05] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H1
+[2025-09-09 23:30:05] [DEBUG] Fetching 1500 candles for GBPJPYm on TF=H2
+[2025-09-09 23:30:05] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=H4
+[2025-09-09 23:30:05] [DEBUG] Fetching 2000 candles for GBPJPYm on TF=D1
+[2025-09-09 23:30:05] [REJECTED] GBPJPYm: M15 pattern Descending Triangle conflicts with BUY.
+[2025-09-09 23:30:05] [SKIP] EURJPYm: Already in trade.
+[2025-09-09 23:30:05] [SKIP] USDJPYm: Already in trade.
+[2025-09-09 23:30:05] [SKIP] GBPUSDm: Already in trade.
+[2025-09-09 23:30:05] [SKIP] EURAUDm: Already in trade.
+[2025-09-09 23:30:05] [SKIP] XAUUSDm: Already in trade.
+[2025-09-09 23:30:05] [PROCESSING] Checking EURUSDm
+[2025-09-09 23:30:05] [DEBUG] Fetching 4000 candles for EURUSDm on TF=M5
+[2025-09-09 23:30:05] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M15
+[2025-09-09 23:30:05] [DEBUG] Fetching 3000 candles for EURUSDm on TF=M30
+[2025-09-09 23:30:05] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H1
+[2025-09-09 23:30:05] [DEBUG] Fetching 1500 candles for EURUSDm on TF=H2
+[2025-09-09 23:30:05] [DEBUG] Fetching 2000 candles for EURUSDm on TF=H4
+[2025-09-09 23:30:05] [DEBUG] Fetching 2000 candles for EURUSDm on TF=D1
+[2025-09-09 23:30:06] [REJECTED] EURUSDm: No direction from indicators.
+[2025-09-09 23:30:06] No valid trade setup found.
+
+[2025-09-10 00:09:14] Booting main.py
+
+[2025-09-10 00:45:06] Booting main.py
+
+[2025-09-11 15:38:11] Booting main.py
+
+[2025-09-11 15:39:22] Booting main.py
+
+[2025-09-11 15:53:42] Booting main.py
+
+[2025-09-11 15:55:46] Booting main.py
+
+[2025-09-11 16:23:27] Booting main.py
+
+[2025-09-11 16:23:38] Booting main.py
+
+[2025-12-06 06:42:35] Booting main.py
+
+[2025-12-06 06:49:32] Booting main.py
+
+[2025-12-06 20:34:18] Booting main.py
